@@ -6,4 +6,4 @@ releases:
   version: ~> 74.17.0
   source: final-pcf-bosh-releases
 - name: uaac
-  source: bosh.io
+  source: compiled-releases
