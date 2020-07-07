@@ -2,7 +2,7 @@ releases:
 - name: uaa
   sha1: somesha
   version: 74.16.0
-  remote_source: bosh.io
+  remote_source: some_path
   remote_path: bosh.io/uaa
 - name: uaac
   sha1: somesha
