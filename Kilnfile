@@ -1,3 +1,5 @@
+release_sources:
+- type: bosh.io
 releases:
 - name: uaa
   version: ~74.16.0
