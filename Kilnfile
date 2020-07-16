@@ -6,6 +6,7 @@ release_sources:
   region: us-west-1
   access_key_id: $(variable "aws_access_key_id")
   secret_access_key: $(variable "aws_secret_access_key")
+- type: bosh.io
 - type: s3
   bucket: final-pcf-bosh-releases
   path_template: '{{.Name}}/{{.Name}}-{{.Version}}.tgz'
